@@ -17,7 +17,7 @@ import { getSaleorApp } from './token.js';
 const debug = Debug('saleor-cli:app:create');
 
 export const command = 'remove [app-id]';
-export const desc = 'Create a new Saleor Local App';
+export const desc = 'Remove a Saleor Local App';
 
 export const builder: CommandBuilder = (_) =>
   _.option('app-id', {
